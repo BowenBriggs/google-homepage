@@ -1,0 +1,123 @@
+.taskbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.taskbar-left {
+    color: black;
+    background-color: white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+li  {
+    display: inline;
+}
+#sign-in {
+    right: 20px;
+    top: 10px;
+    color: white;
+    background-color: #0D77DE;
+    position: absolute;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 11px !important;
+}
+#gmail {
+    color: #212b31;
+    background-color: white;
+    position: absolute;
+    right: 160px;
+    top: 15px;
+    text-decoration: none;
+}
+#images {
+    color: #212b31;
+    background-color: white;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+    text-decoration: none;
+} 
+#about {
+    color: #212b31;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    text-decoration: none;
+} 
+#Store {
+    color: #212b31;
+    background-color: white;
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    text-decoration: none;
+} 
+.footer {
+    background-color: lightgray;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#advertising {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    color: #212b31;
+    text-decoration: none;
+}
+#business {
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+    color: #212b31;
+    text-decoration: none;
+}
+#how-search-works {
+    position: absolute;
+    left: 190px;
+    bottom: 15px;
+    color: #212b31;
+    text-decoration: none;
+}
+#privacy {
+    position:absolute;
+    right: 170px;
+    bottom:15px;
+    color: #212b31;
+    text-decoration: none;
+}
+#terms {
+    position:absolute;
+    right: 90px;
+    bottom: 15px;
+    color: #212b31;
+    text-decoration: none;
+}
+#settings {
+    position: absolute;
+    right: 10px;
+    bottom:15px;
+    color: #212b31;
+    text-decoration: none;
+
+}
+#searchbar {
+    border: radius 100px;
+}

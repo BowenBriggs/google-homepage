@@ -1,32 +1,18 @@
-<style>
-.taskbar-left {
-    color: black;
-    background-color: white;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    text-decoration: none;
-}
-.taskbar-right {
-    color: black;
-    background-color: white;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    text-decoration: none;
-}
-</style>
-<!--<link rel="stylesheet" href="index.css">-->
+<link rel="stylesheet" href="index.css">
 <header>
     <div class="taskbar">
       <div class="taskbar-left"> 
-          <a class="taskbar-left" href="#">About</a>
-          <a class="taskbar-left" href="#">Store</a>
+         <ul>
+            <li><a id="about" href="#">About</a></li> 
+            <li><a id="Store" href="#">Store</a></li> 
+         </ul>  
       </div>  
       <div class="taskbar-right">
-          <a class="taskbar-right" id="gmail" href="#">Gmail</a>
-          <a class="taskbar-right" id="images" href="#">Images</a>
-          <button id="sign-in">Sign in</button>
+          <ul>     
+                <li><a id="gmail" href="#">Gmail</a></li> 
+                <li><a id="images" href="#">Images</a></li> 
+                <li><button id="sign-in"><strong>Sign in</strong></button></li> 
+          </ul> 
       </div>
     </div>
 </header>
@@ -42,17 +28,17 @@
         <button> Google Search</button>
         <button>I'm Feeling Lucky</button>
     </div>
-<footer>
+<footer class="footer">
     <div id="left-footer">
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
+        <a id="advertising" href="#">Advertising</a>
+        <a id="business" href="#">Business</a>
+        <a id="how-search-works" href="#">How Search Works</a>
     </div>
 
     <div id="right-footer">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+        <a id="privacy" href="#">Privacy</a>
+        <a id="terms" href="#">Terms</a>
+        <a id="settings" href="#">Settings</a>
     </div>
 </footer>
 </body>
