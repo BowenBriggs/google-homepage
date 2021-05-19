@@ -33,6 +33,9 @@ li  {
     border: 0px;
     font-size: 11px !important;
 }
+#sign-in:hover {
+    text-decoration: underline;
+}
 #gmail {
     color: #212b31;
     background-color: white;
@@ -40,6 +43,9 @@ li  {
     right: 135px;
     top: 15px;
     text-decoration: none;
+}
+#gmail:hover {
+    text-decoration: underline;
 }
 #images {
     color: #212b31;
@@ -49,6 +55,9 @@ li  {
     top: 15px;
     text-decoration: none;
 } 
+#images:hover {
+    text-decoration: underline;
+}
 #about {
     color: #212b31;
     background-color: white;
@@ -57,6 +66,9 @@ li  {
     top: 15px;
     text-decoration: none;
 } 
+#about:hover {
+    text-decoration: underline;
+}
 #Store {
     color: #212b31;
     background-color: white;
@@ -64,6 +76,9 @@ li  {
     left: 60px;
     top: 15px;
     text-decoration: none;
+}
+#store:hover {
+    text-decoration: underline;
 } 
 .footer {
     background-color: lightgray;
@@ -82,12 +97,18 @@ li  {
     color: #212b31;
     text-decoration: none;
 }
+#advertising:hover {
+    text-decoration: underline;
+}
 #business {
     position: absolute;
     left: 100px;
     bottom: 12px;
     color: #212b31;
     text-decoration: none;
+}
+#business:hover {
+    text-decoration: underline;
 }
 #how-search-works {
     position: absolute;
@@ -96,12 +117,18 @@ li  {
     color: #212b31;
     text-decoration: none;
 }
+#how-search-works:hover {
+    text-decoration: underline;
+}
 #privacy {
     position:absolute;
     right: 150px;
     bottom:12px;
     color: #212b31;
     text-decoration: none;
+}
+#privacy:hover {
+    text-decoration: underline;
 }
 #terms {
     position:absolute;
@@ -110,13 +137,19 @@ li  {
     color: #212b31;
     text-decoration: none;
 }
+#terms:hover {
+    text-decoration: underline;
+}
+
 #settings {
     position: absolute;
     right: 10px;
     bottom:12px;
     color: #212b31;
     text-decoration: none;
-
+}
+#settings:hover {
+    text-decoration: underline;
 }
 #searchbar {
     border: radius 100px;
@@ -144,7 +177,7 @@ li  {
 #searchbaritems {
     position: absolute;
     top: 36%;
-    left: 35%;
+    left: 36%;
 }
 #search-btns {
     position: absolute;
