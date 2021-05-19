@@ -164,7 +164,7 @@ li  {
     top: 35%;
     left: 38%;
     width: 25%;
-    border-radius:0;
+    border-radius:50px;
     -webkit-box-shadow: 2px 3px 0px -2px #ccc;
     padding:10px;
     border:0px;
@@ -173,6 +173,7 @@ li  {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #CCC;
+    
 }
 #searchbaritems {
     position: absolute;
@@ -181,7 +182,9 @@ li  {
 }
 #search-btns {
     position: absolute;
-    top: 40%;
+    top: 43%;
     left:43%;
+    color: gray;
+    background-color: lightgray;
 
 }
